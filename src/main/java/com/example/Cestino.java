@@ -11,7 +11,7 @@ public class Cestino {
         return contatore;
     }
 
-    public void addMonete() {
+    public synchronized void addMonete() {
         contatore++;
     }
 }
